@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'courier New', Courier, monospace;
+}
+
+.main_page {
+    width: 100vw;
+    height: 300vh;
+
+
+}
+
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+
+
+}
+
+
+
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 40%;
+
+
+}
+
+
+.header {
+    width: 100%;
+    height: 70vh;
+    background-image: url('dark-walls.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+
+.left {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 65%;
+
+
+}
+
+
+.box {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+}
+
+
+.right {
+    position: absolute;
+    right: 2%;
+    top: 65%;
+    font-size: 15px;
+    color: white;
+    font-style: normal;
+}
+
+
+.content {
+    width: 50vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+
+
+}
+
+
+.box1 span {
+    background-color: black;
+    color: white;
+    margin: 70px;
+    font-size: 20px;
+}
+
+
+.box1 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.img img {
+    width: 50vw;
+    height: 40vh;
+    margin: 40px;
+}
+
+
+.box2 {
+    width: 50vw;
+    background-color: rgb(245, 245, 237);
+    border-left: 10px solid rgba(199, 199, 155, 0.822);
+
+
+}
+
+
+.box2 p {
+    font-style: italic;
+}
+
+
+.reserve input {
+    width: 50vw;
+    height: 7vh;
+    font-size: 17px;
+}
+
+
+.submit {
+    width: 10vw;
+    height: 7vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+
+
+}
