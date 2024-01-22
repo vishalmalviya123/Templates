@@ -1,0 +1,278 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url(meting1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nav {
+    height: 7vh;
+    width: 60vw;
+    background-color:rgb(12, 12, 73);
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+
+.logo {
+    height: 3vh;
+    width: 6vw;
+    background-color: rgb(0, 99, 66);
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+
+.menu {
+    width: 50%;
+    background-color: rgb(6, 34, 63);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: space-evenly;  */
+    left: 120px;
+    bottom: 10px;
+    /* text-decoration: none;
+    text-transform: none; */
+    color: white;
+
+}
+
+/* .logo{
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(140, 127, 255);
+    position: relative;
+    left: 100px;
+/* }  */
+.Login {
+    height: 3vh;
+    width: 4vw;
+    background-color:rgb(3, 3, 66);
+    position: relative;
+    left: 750px;
+    bottom: 32px;
+}
+
+.Register {
+
+    height: 3vh;
+    width: 4vw;
+    background-color: rgb(6, 34, 63);
+    position: relative;
+    /* display: flex; */
+    left: 820px;
+    bottom: 52px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.Login a {
+    text-decoration: none;
+    color: white;
+}
+
+.Register {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.GET_TICKETS {
+    height: 7vh;
+    width: 9vw;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+#Blue {
+    color:blueviolet;
+}
+
+.button {
+    height: 3vh;
+    width: 4vw;
+    background-color: rgb(6, 34, 63);
+    position: relative;
+    left: 790px;
+    bottom: 73px;
+    color: white;
+    border: none;
+}
+
+.Two {
+    font-size: xxx-large;
+    color: yellow;
+}
+
+.Marketing {
+    font-size: 70px;
+    color: white;
+}
+
+.Conference {
+    font-size: 70px;
+    color: white;
+}
+
+/* .parent{
+    color: white;
+}  */
+
+.Marketing a {
+    text-decoration: none;
+    color: white;
+}
+
+.string {
+    width: 230px;
+    height: 3vh;
+    background-color: antiquewhite;
+    padding-left: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* .Miame{
+    width: 100px;
+    height: 5vh;
+    color:blueviolet;
+} */
+.Conference a {
+    color: white;
+    text-decoration: none;
+}
+
+.GET_TICKET {
+    height: 8vh;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    top: 50px;
+    position: relative;
+    left: 1px;
+    font-weight: 700;
+    font-size: larger;
+    border: 0.5 solid black;
+    box-shadow: 2px;
+    text-align: center;
+
+
+}
+
+/* .footer{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom : 0;
+    width: 100%;
+}   */
+
+
+.futer {
+    height: 26vh;
+    width: 104vw;
+    background-color: blueviolet;
+    position: relative;
+    right: 300px;
+    top: 110px;
+}
+
+.footer-whole-cont {
+    width: 75%;
+    margin: auto;
+
+}
+
+.footer-cont {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.footer-info>h1 {
+    font-size: 40px;
+    height: 20px;
+}
+
+
+.footer-info>span{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .first{
+    font-size: xx-large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+.secand{
+    font-size:xx-large;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    position: relative;
+    left:580px;
+    bottom: 95px;
+
+}
+.third{
+    font-size:xx-large;
+    font-weight:800;
+    color: rgb(255, 255, 255);
+    position:relative;
+    left: 760px;
+    bottom:210px;
+}
+.fourth{
+    font-size:xx-large;
+    font-weight:800;
+    color:rgb(255, 255, 255);
+    position:relative;
+    left:950px;
+    bottom:320px;
+} */
